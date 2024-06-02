@@ -1,0 +1,415 @@
+Server listening on port 7777
+id : 4 buffer: order cake 10
+
+id : 4 write: cake 10
+
+id : 5 buffer: order cake 9
+
+id : 6 buffer: order cake 8
+
+id : 6 write: cake 8
+
+id : 5 write: cake 9
+
+id : 4 buffer: order cookie 1
+
+id : 4 write: cookie 1|cake 10
+
+id : 8 buffer: order cake 7
+
+id : 8 write: cake 7
+
+id : 7 buffer: order cake 6
+
+id : 7 write: cake 6
+
+id : 4 buffer: order cookie 1
+
+id : 4 write: cookie 2|cake 10
+
+id : 10 buffer: order cake 5
+
+id : 7 buffer: order cookie 5
+
+id : 5 buffer: order cookie 2
+
+id : 5 write: cookie 2|cake 9
+
+id : 8 buffer: order cookie 4
+
+id : 11 buffer: order cake 4
+
+id : 8 write: cookie 4|cake 7
+
+id : 4 buffer: confirm
+
+id : 7 write: cookie 5|cake 6
+
+id : 13 buffer: order cake 1
+
+id : 13 write: cake 1
+
+id : 11 write: cake 4
+
+id : 6 buffer: order cookie 3
+
+id : 7 buffer: order cookie 1
+
+id : 5 buffer: order cookie 1
+
+id : 7 write: cookie 6|cake 6
+
+id : 9 buffer: order cake 3
+
+id : 6 write: cookie 3|cake 8
+
+id : 10 write: cake 5
+
+id : 8 buffer: order cookie 1
+
+id : 5 write: cookie 3|cake 9
+
+id : 13 buffer: order cookie 10
+
+id : 10 buffer: order cookie 6
+
+id : 13 write: cookie 10|cake 1
+
+id : 8 write: cookie 5|cake 7
+
+id : 7 buffer: confirm
+
+id : 7 ,confirm
+id : 7 ,time1: 3, time2: 0, add time: 3
+id : 7 ,human is 1
+id : 7 write: Please wait a few minutes...
+
+id : 13 buffer: order cookie 1
+
+id : 7 ,wait minit:3
+id : 13 write: cookie 11|cake 1
+
+id : 10 write: cookie 6|cake 5
+
+id : 9 write: cake 3
+
+id : 11 buffer: order cookie 7
+
+id : 10 buffer: order cookie 1
+
+id : 10 write: cookie 7|cake 5
+
+id : 6 buffer: order cookie 1
+
+id : 6 write: cookie 4|cake 8
+
+id : 11 write: cookie 7|cake 4
+
+id : 10 buffer: confirm
+
+id : 12 buffer: order cake 2
+
+id : 11 buffer: order cookie 1
+
+id : 11 write: cookie 8|cake 4
+
+id : 7 ,coming human:1
+id : 9 buffer: order cookie 8
+
+id : 11 buffer: confirm
+
+id : 11 ,confirm
+id : 11 ,time1: 3, time2: 3, add time: 3
+id : 11 ,human is 2
+id : 5 buffer: confirm
+
+id : 5 ,confirm
+id : 5 ,time1: 6, time2: 3, add time: 3
+id : 5 ,human is 1
+id : 5 write: Please wait a few minutes...
+
+id : 5 ,wait minit:6
+id : 5 ,coming human:1
+id : 13 buffer: confirm
+
+id : 13 ,confirm
+id : 13 ,time1: 6, time2: 6, add time: 3
+id : 13 ,human is 2
+id : 13 write: Please wait a few minutes...
+
+id : 10 ,confirm
+id : 10 ,time1: 9, time2: 6, add time: 3
+id : 10 ,human is 1
+id : 10 write: Please wait a few minutes...
+
+id : 11 write: Please wait a few minutes...
+
+id : 10 ,wait minit:9
+id : 10 ,coming human:1
+id : 8 buffer: confirm
+
+id : 8 ,confirm
+id : 8 ,time1: 9, time2: 9, add time: 3
+id : 8 ,human is 2
+id : 8 write: Please wait a few minutes...
+
+id : 9 write: cookie 8|cake 3
+
+id : 6 buffer: confirm
+
+id : 6 ,confirm
+id : 6 ,time1: 12, time2: 9, add time: 3
+id : 6 ,human is 1
+id : 6 write: Please wait a few minutes...
+
+id : 12 write: cake 2
+
+id : 9 buffer: order cookie 1
+
+id : 9 write: cookie 9|cake 3
+
+id : 6 ,wait minit:12
+id : 6 ,coming human:1
+id : 4 ,confirm
+id : 4 ,time1: 12, time2: 12, add time: 3
+id : 4 ,human is 2
+id : 4 write: Please wait a few minutes...
+
+id : 9 buffer: confirm
+
+id : 9 ,confirm
+id : 9 ,time1: 15, time2: 12, add time: 3
+id : 12 buffer: order cookie 9
+
+id : 9 ,human is 1
+id : 9 write: Please wait a few minutes...
+
+id : 12 write: cookie 9|cake 2
+
+id : 9 ,wait minit:15
+id : 9 ,coming human:1
+id : 12 buffer: order cookie 1
+
+id : 12 write: cookie 10|cake 2
+
+id : 12 buffer: confirm
+
+id : 12 ,confirm
+id : 12 ,time1: 15, time2: 15, add time: 3
+id : 12 ,human is 2
+id : 12 write: Please wait a few minutes...
+
+id : 7 write: Delivery has arrived and you need to pay 840$
+
+id : 11 ,wait minit:3
+id : 11 ,coming human:2
+id : 11 write: Delivery has arrived and you need to pay 800$
+
+id : 5 write: Delivery has arrived and you need to pay 900$
+
+id : 13 ,wait minit:6
+id : 13 ,coming human:2
+id : 13 write: Delivery has arrived and you need to pay 740$
+
+id : 10 write: Delivery has arrived and you need to pay 820$
+
+id : 8 ,wait minit:9
+id : 8 ,coming human:2
+id : 8 write: Delivery has arrived and you need to pay 860$
+
+id : 6 write: Delivery has arrived and you need to pay 880$
+
+id : 4 ,wait minit:12
+id : 4 ,coming human:2
+id : 4 write: Delivery has arrived and you need to pay 920$
+
+id : 9 write: Delivery has arrived and you need to pay 780$
+
+id : 12 ,wait minit:15
+id : 12 ,coming human:2
+id : 12 write: Delivery has arrived and you need to pay 760$
+
+id : 14 buffer: order fried-rice 1
+
+id : 14 write: fried-rice 1
+
+id : 14 buffer: confirm
+
+id : 14 ,confirm
+id : 14 ,time1: 8, time2: 0, add time: 8
+id : 14 ,human is 1
+id : 14 write: Please wait a few minutes...
+
+id : 14 ,wait minit:8
+id : 14 ,coming human:1
+id : 4 buffer: order fried-rice 1
+
+id : 4 write: fried-rice 1
+
+id : 4 buffer: confirm
+
+id : 4 ,confirm
+id : 4 ,time1: 8, time2: 8, add time: 8
+id : 4 ,human is 2
+id : 4 write: Please wait a few minutes...
+
+id : 5 buffer: order fried-rice 1
+
+id : 5 write: fried-rice 1
+
+id : 5 buffer: confirm
+
+id : 5 ,confirm
+id : 5 ,time1: 16, time2: 8, add time: 8
+id : 5 ,human is 1
+id : 5 write: Please wait a few minutes...
+
+id : 5 ,wait minit:16
+id : 5 ,coming human:1
+id : 6 buffer: order fried-rice 1
+
+id : 6 write: fried-rice 1
+
+id : 6 buffer: confirm
+
+id : 6 ,confirm
+id : 6 ,time1: 16, time2: 16, add time: 8
+id : 6 ,human is 2
+id : 6 write: Please wait a few minutes...
+
+id : 7 buffer: order fried-rice 1
+
+id : 7 write: fried-rice 1
+
+id : 7 buffer: confirm
+
+id : 7 ,confirm
+id : 7 ,time1: 24, time2: 16, add time: 8
+id : 7 ,human is 1
+id : 7 write: Please wait a few minutes...
+
+id : 7 ,wait minit:24
+id : 7 ,coming human:1
+id : 8 buffer: order fried-rice 1
+
+id : 8 write: fried-rice 1
+
+id : 8 buffer: confirm
+
+id : 8 ,confirm
+id : 8 ,time1: 24, time2: 24, add time: 8
+id : 8 ,human is 2
+id : 8 write: Please wait a few minutes...
+
+id : 9 buffer: order fried-rice 2
+
+id : 9 write: fried-rice 2
+
+id : 9 buffer: confirm
+
+id : 9 ,confirm
+id : 9 ,time1: 32, time2: 24, add time: 8
+id : 9 ,human is 1
+id : 9 the beyond time is 32
+id : 9 write: Your delivery will take a long time, do you want to wait?
+
+id : 9 buffer: Yes
+
+YES!!!!
+id : 9 write: Please wait a few minutes...
+
+id : 14 write: Delivery has arrived and you need to pay 120$
+
+id : 4 ,wait minit:8
+id : 4 ,coming human:2
+id : 4 write: Delivery has arrived and you need to pay 120$
+
+id : 5 write: Delivery has arrived and you need to pay 120$
+
+id : 6 ,wait minit:16
+id : 6 ,coming human:2
+id : 6 write: Delivery has arrived and you need to pay 120$
+
+id : 7 write: Delivery has arrived and you need to pay 120$
+
+id : 8 ,wait minit:24
+id : 8 ,coming human:2
+id : 8 write: Delivery has arrived and you need to pay 120$
+
+id : 9 write: Delivery has arrived and you need to pay 240$
+
+id : 10 buffer: order fried-rice 1
+
+id : 5 buffer: order fried-rice 1
+
+id : 4 buffer: order fried-rice 1
+
+id : 10 write: fried-rice 1
+
+id : 5 write: fried-rice 1
+
+id : 4 write: fried-rice 1
+
+id : 5 buffer: order fried-rice 2
+
+id : 5 write: fried-rice 3
+
+id : 10 buffer: order fried-rice 2
+
+id : 10 write: fried-rice 3
+
+id : 4 buffer: order fried-rice 2
+
+id : 4 write: fried-rice 3
+
+id : 5 buffer: order fried-rice 3
+
+id : 5 write: fried-rice 6
+
+id : 10 buffer: order fried-rice 3
+
+id : 10 write: fried-rice 6
+
+id : 4 buffer: order fried-rice 3
+
+id : 4 write: fried-rice 6
+
+id : 5 buffer: confirm
+
+id : 5 ,confirm
+id : 5 ,time1: 8, time2: 0, add time: 8
+id : 5 ,human is 1
+id : 5 write: Please wait a few minutes...
+
+id : 10 buffer: confirm
+
+id : 10 ,confirm
+id : 5 ,wait minit:8
+id : 5 ,coming human:1
+id : 10 ,time1: 8, time2: 8, add time: 8
+id : 10 ,human is 2
+id : 10 write: Please wait a few minutes...
+
+id : 4 buffer: confirm
+
+id : 4 ,confirm
+id : 4 ,time1: 16, time2: 8, add time: 8
+id : 4 ,human is 1
+id : 4 write: Please wait a few minutes...
+
+id : 4 ,wait minit:16
+id : 4 ,coming human:1
+id : 5 write: Delivery has arrived and you need to pay 720$
+
+id : 10 ,wait minit:8
+id : 10 ,coming human:2
+id : 10 write: Delivery has arrived and you need to pay 720$
+
+id : 4 write: Delivery has arrived and you need to pay 720$
+
+id : 6 buffer: confirm
+
+id : 6 ,confirm
+id : 6 write: Please order some meals
+
+id : 6 buffer: 

@@ -1,0 +1,1 @@
+cmd_/home/sam/linux/312512049_eos_lab4/mydev.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sam/linux/312512049_eos_lab4/mydev.ko /home/sam/linux/312512049_eos_lab4/mydev.o /home/sam/linux/312512049_eos_lab4/mydev.mod.o;  true
