@@ -1,15 +1,6 @@
-CC = gcc
-
-CFLAGS = -Wall -Wextra -pthread
-
-TARGET = server
-
-SRC = server.c
-
-all: $(TARGET)
-
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $@ $^
-
+obj-m += final_driver.o
+KDIR = /home/sam/linux
+all:
+		make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- -C $(KDIR) M=$(shell pwd) modules	
 clean:
-	rm -f $(TARGET)
+		make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- -C $(KDIR) M=$(shell pwd) clean
